@@ -4,6 +4,5 @@ def sum(a):
     return a.pop() + sum(a)
 
 print(sum([1,2,3,12,5,6,7,10]))
-print(sum([]))
 
 
