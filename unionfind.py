@@ -37,9 +37,8 @@ for p,q in segs:
 
 print(f"siz={siz}")
 print(f"cid={cid}")
-print(componentCount)
+print(f"component count {componentCount}")
+
 for p,q in segs:
     print(f"{p}->{q} {isConnected(p,q)} cid={findComponent(p)} size={siz[findComponent(p)]}")
 print(f"{0}->{5} {isConnected(0,5)} cid={findComponent(5)} size={siz[findComponent(5)]}")
-
-print(f"size of cid")
